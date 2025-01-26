@@ -1,0 +1,38 @@
+# Environment Configuration
+.env
+src/config/db.php
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Uploaded files
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Cache
+*.cache
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build files
+/dist/
+/build/ 
